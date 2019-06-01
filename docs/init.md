@@ -32,3 +32,24 @@ git remote add origin git@gitlab.com:raffaeldutra/meu-novo-projeto.git
 ```
 
 Quando executar o comando, não haverá um retorno no terminal.
+
+Para listar os repositórios remotos, utilize o comando:
+
+`git remote -v`
+
+```
+origin	git@github.com:raffaeldutra/meu-novo-projeto.git (fetch)
+origin	git@github.com:raffaeldutra/meu-novo-projeto.git (push)
+```
+
+## Configuração do repositório
+
+Todo novo repositório deverá ser criado algumas configurações, como por exemplo, quem é a pessoa que está criando código. Estas informações serão apresentadas no repositório para sabermos quem criou ou modificou algum arquivo.
+
+Configure o seu email.
+`git config user.email "raffaeldutra@gmail.com"`
+
+Configure seu nome.
+`git config user.name "Rafael Dutra"`
+
+> Cuidado ao utilizar a opção --global, pois todos seus projetos irão ter o mesmo usuário e email.

@@ -4,6 +4,14 @@ Esta é uma apresentação básica sobre o que é Git e como ele funciona.
 
 Durante o processo iremos entender o motivo de utilizarmos essa poderosa ferramenta, seja você desenvolver ou operações, TODOS devem conhecer como versionar códigos.
 
+Com Git é possível:
+
+* Fazer o rastreio de todos os arquivos em um projeto.
+* Saber todas as modificações em um arquivo do projeto.
+* Restaurar qualquer modificação feita em um arquivo.
+* Comparar e analizar códigos.
+* Unificar códigos de diferentes pessoas de diferentes computadores.
+
 ## Pré requisitos
 
 Ter `Git` instalado na máquina.
